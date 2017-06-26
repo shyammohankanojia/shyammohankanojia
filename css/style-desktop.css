@@ -93,6 +93,8 @@
 		.box
 		{
 			padding: 2em;
+			min-height: 443px;
+
 		}
 
 			.box.style1
