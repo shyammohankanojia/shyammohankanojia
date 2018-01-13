@@ -886,7 +886,7 @@ address a.location{
   height: 230px;
 }
 .bg-green {
-  background-color: #303030;
+  background-color: #01c3a7;
 }
 .bg-blue {
   background-color: #006ad5;
@@ -1032,8 +1032,8 @@ address a.location{
 }
 .blog-post-author img {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin: 0 auto;
   -o-object-fit: cover;
@@ -1043,8 +1043,6 @@ address a.location{
   width: 100%;
   margin: 0 auto;
   color: #fff;
-  font-size: 24px;
-  font-weight: 600;
 }
 .blog-post-author-name {
   color: #fff;
