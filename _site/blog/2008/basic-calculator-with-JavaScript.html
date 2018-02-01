@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Deploy ruby on rails application on aws ec2 using dokku | CodeCrux Web Technologies</title>
+<title>Basic calculator with JavaScript | CodeCrux Web Technologies</title>
 <meta name="generator" content="Jekyll v3.7.0" />
-<meta property="og:title" content="Deploy ruby on rails application on aws ec2 using dokku" />
+<meta property="og:title" content="Basic calculator with JavaScript" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises" />
-<meta property="og:description" content="CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises" />
-<link rel="canonical" href="http://localhost:4000/blog/2017/deploy-ruby-on-rails-application-on-aws-ec2-using-dokku.html" />
-<meta property="og:url" content="http://localhost:4000/blog/2017/deploy-ruby-on-rails-application-on-aws-ec2-using-dokku.html" />
+<meta name="description" content="A function named eval() is already available in java script so you just have to pass the arithmetic expression to this eval function." />
+<meta property="og:description" content="A function named eval() is already available in java script so you just have to pass the arithmetic expression to this eval function." />
+<link rel="canonical" href="http://localhost:4000/blog/2008/basic-calculator-with-JavaScript.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2008/basic-calculator-with-JavaScript.html" />
 <meta property="og:site_name" content="CodeCrux Web Technologies" />
 <script type="application/ld+json">
-{"description":"CodeCrux builds web and mobile applications using Ruby on Rails, iOS and Android for startups, high growth, enterprises","@type":"WebPage","url":"http://localhost:4000/blog/2017/deploy-ruby-on-rails-application-on-aws-ec2-using-dokku.html","headline":"Deploy ruby on rails application on aws ec2 using dokku","@context":"http://schema.org"}</script>
+{"description":"A function named eval() is already available in java script so you just have to pass the arithmetic expression to this eval function.","@type":"WebPage","url":"http://localhost:4000/blog/2008/basic-calculator-with-JavaScript.html","headline":"Basic calculator with JavaScript","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="viewport" content="width=device-width">
@@ -69,44 +69,73 @@
     <div class="blog-post-content">
       <div class="container">
         <div class="col-sm-9">
-          <div class="blog-post-banner bg-green">
-  <div class="blog-post-banner-content">
-    <div class="blog-post-author">
-      <br>
-      <br>
-      <img src="/blog/images/deploy-rails-aws-dokku.png" alt="deploy rails app dokku" />
+          <div class="blog-main-content">
+  <h1>Basic calculator with JavaScript</h1>
+  <p>
+  A function named eval() is already available in java script so you just have to pass the arithmetic expression to this eval function.
+  </p>
+
+  <center>
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        <form name="calc">
+          <table border=4>
+            <tr>
+              <td><input type="text" name="input" size="16"><br></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" name="one"   value="  1  " onclick="calc.input.value += '1'">
+                <input type="button" name="two"   value="  2  " onclick="calc.input.value += '2'">
+                <input type="button" name="three" value="  3  " onclick="calc.input.value += '3'">
+                <input type="button" name="plus"  value="  +  " onclick="calc.input.value += ' + '">
+                <br><br>
+                <input type="button" name="four"  value="  4  " onclick="calc.input.value += '4'">
+                <input type="button" name="five"  value="  5  " onclick="calc.input.value += '5'">
+                <input type="button" name="six"   value="  6  " onclick="calc.input.value += '6'">
+                <input type="button" name="minus" value="  -  " onclick="calc.input.value += ' - '">
+                <br><br>
+                <input type="button" name="seven" value="  7  " onclick="calc.input.value += '7'">
+                <input type="button" name="eight" value="  8  " onclick="calc.input.value += '8'">
+                <input type="button" name="nine"  value="  9  " onclick="calc.input.value += '9'">
+                <input type="button" name="times" value="  x  " onclick="calc.input.value += ' * '">
+                <br><br>
+                <input type="button" name="clear" value="  c  " onclick="calc.input.value = ''">
+                <input type="button" name="zero"  value="  0  " onclick="calc.input.value += '0'">
+                <input type="button" name="doit"  value="  =  " onclick="calc.input.value = eval(calc.input.value)">
+                <input type="button" name="div"   value="  /  " onclick="calc.input.value += ' / '">
+                <br><br>
+              </td>
+            </tr>
+          </table>
+        </form>
+        <br>
     </div>
-    <div class="blog-post-title">
-      <p class="blog-post-category">#Tech, #DevOps, #amazon, #Ruby on rails, #dokku</p>
-      <h1>Deploy ruby on rails application on aws ec2 using dokku </h1>
-      <br>
-    </div>
-  </div>
+  </center>
+
+  <div class="clearfix"></div>
+  <h2>Sample Source Code will look like this.</h2>
+  <ul>
+    <li>Create a html file with name of calculator.html</li>
+    <li>Add code shown below and open this file</li>
+    <li>Your sample calculator is ready.</li>
+  </ul>
+  <img src="/blog/images/basic-calculator-with-javaScript.png" class="img-responsive">
+  <br>
 </div>
 
-<div class="blog-post-content">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2">
+<center>
+  <a href="/blog/2017/why-you-should-speak-at-meetups.html" class="btn btn-default btn-round pull-left alert alert-success" style="text-decoration: none;"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a>
 
-      <article class="post-content">
+  <a href="#" class="btn btn-default btn-round pull-right alert alert-success" style="text-decoration: none;">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
+</center>
 
 
 
-      </article>
 
-    </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="col-md-8 col-md-offset-2">
-    <!-- <a href="/blog/2017/what-is-new-in-rails5.html" class="btn btn-default btn-round"><i class="fa fa-long-arrow-left fa-left"></i>Previous</a> -->
 
-    <a href="#" class="btn btn-default btn-round pull-right">Next<i class="fa fa-long-arrow-right fa-right"></i></a>
-  </div>
-</div>
 
-<br>
+
 
         </div>
         <div class="col-sm-3">

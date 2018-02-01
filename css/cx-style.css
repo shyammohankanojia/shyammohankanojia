@@ -819,6 +819,7 @@ address a.location{
 }
 .blog-main-content {
   min-height: 80vh;
+  margin-top: 40px;
 }
 .blog-banner {
   position: relative;
@@ -1062,7 +1063,7 @@ address a.location{
 .blog-post-content {
   font-family: 'proxima-nova', serif;
   min-height: 600px;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .blog-post-content p {
   font-size: 18px;
@@ -1074,6 +1075,21 @@ address a.location{
 .blog-post-content img {
   max-width: 100%;
   height: auto;
+}
+
+.blog-post-content h1{
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.blog-post-content h2{
+  font-size: 20px;
+}
+
+
+.blog-main-content{
+  margin-bottom: 40px;
+
 }
 
 /*------Technology------*/

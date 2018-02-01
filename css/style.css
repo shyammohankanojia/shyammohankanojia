@@ -764,3 +764,8 @@ img {
     max-width: 100%;
     height: auto;
     }
+
+.footer-bg{
+	background-color: #EEE;
+	padding: 10px;
+}
