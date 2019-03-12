@@ -7,12 +7,8 @@ layout: blog
 
 <article class="blog-item">
   <div class="blog-item-content">
-  <a href="/blog/2008/basic-calculator-with-JavaScript.html" class="blog-item-category">
-    <span class="blog-item-title">Basic calculator with JavaScript</span> <br>
-    <div class="blog-item-info">
-      <span class="posted-date">18 JAN, 2008</span>
-    </div>
-
+  <a href="/blog/basic-calculator-with-JavaScript.html" class="blog-item-category">
+    <span class="blog-item-title">Basic calculator with JavaScript</span>
     <div class="blog-content-row">
       <div class="col-md-3 nopadding">
         <div class="blog-content-img">
@@ -36,12 +32,8 @@ layout: blog
 
 <article class="blog-item">
   <div class="blog-item-content">
-  <a href="/blog/2017/deploy-ruby-on-rails-application-on-aws-ec2-using-dokku.html" class="blog-item-category">
-    <span class="blog-item-title">Deploy ruby on rails application on aws ec2 using dokku</span> <br>
-    <div class="blog-item-info">
-      <span class="posted-date">13 JAN, 2018</span>
-    </div>
-
+  <a href="/blog/basic-calculator-with-JavaScript.html" class="blog-item-category">
+    <span class="blog-item-title">Basic calculator with JavaScript</span>
     <div class="blog-content-row">
       <div class="col-md-3 nopadding">
         <div class="blog-content-img">
@@ -50,9 +42,9 @@ layout: blog
       </div>
       <div class="col-md-9 nopadding">
         <p>
-          <b>Deploy ruby on rails application using dokku</b>
+          <b>Basic calculator with JavaScript</b>
           <br>
-          We all love heroku, dokku is open source version of heroku like setup. here i will explain how to steup dokku on amazon web services EC2.
+          A function named eval() is already available in java script so you just have to pass the arithmetic expression to this eval function.
         </p>
         <span class="read-more-link">Continue Reading <i class="fa fa-chevron-right"></i></span>
       </div>
@@ -61,4 +53,18 @@ layout: blog
   </a>
   </div>
 </article>
+
+
+<ul class="entries">
+  {% for post in paginator.posts %}
+  <li>
+    <a href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+    <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
 

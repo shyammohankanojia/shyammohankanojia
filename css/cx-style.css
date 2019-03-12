@@ -56,16 +56,17 @@ h6 {
   font-family: Maven Pro, "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 500;
   font-size: 15px;
+  font-style: none;
 }
 .btn-round {
-  border-radius: 30px;
+  border-radius: 30px !important;
 }
 .btn-default {
   color: #777;
 }
 .btn-default:hover,
 .btn-default:focus {
-  color: #000;
+  color: #000 !important;
 }
 .bg-light-gray {
   background-color: #f7f7f7;
